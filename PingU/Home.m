@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 PingU. All rights reserved.
 //
 
-#import "DetailViewController.h"
+#import "Home.h"
 
 @interface DetailViewController ()
 - (void)configureView;
