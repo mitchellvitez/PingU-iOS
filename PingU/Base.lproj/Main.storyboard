@@ -21,7 +21,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="84d-wR-FQA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1078" y="-932"/>
+            <point key="canvasLocation" x="1018" y="-952"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="5Fq-0g-P7s">
@@ -52,10 +52,10 @@
             </objects>
             <point key="canvasLocation" x="1730" y="-900"/>
         </scene>
-        <!--View Controller-->
+        <!--Add Friend-->
         <scene sceneID="RMH-S8-Cfw">
             <objects>
-                <viewController id="5FS-pI-f9Z" sceneMemberID="viewController">
+                <viewController id="5FS-pI-f9Z" customClass="AddFriend" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zyf-12-BiG"/>
                         <viewControllerLayoutGuide type="bottom" id="lAc-qU-YWZ"/>
@@ -87,7 +87,7 @@
             </objects>
             <point key="canvasLocation" x="2251" y="-551"/>
         </scene>
-        <!--Table View Controller - Home-->
+        <!--Table View Controller - Menu-->
         <scene sceneID="Gjd-gq-4Az">
             <objects>
                 <tableViewController clearsSelectionOnViewWillAppear="NO" id="KqC-i6-YdJ" sceneMemberID="viewController">
@@ -105,7 +105,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Map" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tnE-ft-8Mj">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Home" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tnE-ft-8Mj">
                                                     <rect key="frame" x="15" y="0.0" width="270" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -226,7 +226,7 @@
                             <outlet property="delegate" destination="KqC-i6-YdJ" id="Uqw-6Z-Iba"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Home" id="Ggj-n5-ARa"/>
+                    <navigationItem key="navigationItem" title="Menu" id="Ggj-n5-ARa"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mil-qa-SNG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
